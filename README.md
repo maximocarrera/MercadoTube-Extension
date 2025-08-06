@@ -24,7 +24,7 @@
 
 ### Desde la Chrome Web Store (Próximamente)
 
-*(Una vez que la extensión sea aprobada, podrás poner aquí el enlace directo para que los usuarios la instalen con un solo clic.)*
+*(Una vez que la extensión sea aprobada, podrás poner aquí el enlace directo para que los usuarios la instalen con un solo click.)*
 
 ### Instalación Manual
 
