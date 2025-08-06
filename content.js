@@ -7,10 +7,9 @@ chrome.runtime.onMessage.addListener(
                 originalPrice: null,
                 discountedPrice: null,
                 imageUrl: null,
-                category: null // Nuevo campo para la categoría
+                category: null 
             };
 
-            // Selector para el Título del Producto
             const titleElement = document.querySelector('h1.ui-pdp-title');
             if (titleElement) {
                 productData.title = titleElement.innerText.trim();
@@ -19,6 +18,6 @@ chrome.runtime.onMessage.addListener(
             console.log("Datos extraídos de Mercado Libre:", productData);
             sendResponse(productData);
         }
-        return true; // IMPORTANTE: Mantiene el canal de comunicación abierto.
+        return true; 
     }
 );
