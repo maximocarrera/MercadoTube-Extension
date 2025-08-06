@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "MercadoTube",
+  "version": "1.0",
+  "description": "Busca y muestra reseñas de YouTube para productos de Mercado Libre.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/*",
+    "https://www.youtube.com/embed/*",
+    "https://www.mercadolibre.com.ar/*"
+  ]
+}
